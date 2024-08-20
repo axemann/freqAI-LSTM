@@ -52,7 +52,7 @@ class ExampleLSTMStrategy(IStrategy):
     trailing_only_offset_is_reached = True
 
     timeframe = "1h"
-    can_short = True
+    can_short = False
     use_exit_signal = True
     process_only_new_candles = True
 
